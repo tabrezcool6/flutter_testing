@@ -18,4 +18,14 @@ class Counter {
   void reset() {
     _counter = 0;
   }
+
+  /// increment method to increment the counter by 1
+  void incrementBy2() {
+    _counter += 2;
+  }
+
+  /// decrement method to decrement the counter by 1
+  void decrementBy2() {
+    _counter -= 2;
+  }
 }

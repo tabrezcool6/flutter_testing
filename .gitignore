@@ -33,7 +33,7 @@ migrate_working_dir/
 .pub/
 /build/
 /lib/integratedTest
-/lib/widgetTest
+# /lib/widgetTest
 
 # Symbolication related
 app.*.symbols

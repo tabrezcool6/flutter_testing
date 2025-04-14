@@ -1,14 +1,14 @@
 import 'package:counter_widget_testing/common/services/counter.dart';
 import 'package:flutter/material.dart';
 
-class HomeCounterUnit extends StatefulWidget {
-  const HomeCounterUnit({super.key});
+class HomeCounterUnitPage extends StatefulWidget {
+  const HomeCounterUnitPage({super.key});
 
   @override
-  State<HomeCounterUnit> createState() => _HomeCounterUnitState();
+  State<HomeCounterUnitPage> createState() => _HomeCounterUnitState();
 }
 
-class _HomeCounterUnitState extends State<HomeCounterUnit> {
+class _HomeCounterUnitState extends State<HomeCounterUnitPage> {
   /// creating an instance of the Counter class
   final Counter counter = Counter();
 
