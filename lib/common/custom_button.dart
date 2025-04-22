@@ -45,3 +45,32 @@ class HorizontalDivider extends StatelessWidget {
     );
   }
 }
+
+class CustomAlertDialog {
+  ///
+  ///  Alert Dialog Box
+  static show(BuildContext context, String desc) {
+    // set up the button
+    Widget okButton = TextButton(
+      onPressed: () => Navigator.pop(context),
+      child: Text('OK'),
+    );
+
+    // set up the AlertDialog
+    AlertDialog alert = AlertDialog(
+      title: Text('Success'),
+      content: desc != '' ? Text(desc) : SizedBox(),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      actions: [okButton],
+    );
+
+    // show the dialog
+    showDialog(
+      barrierDismissible: false,
+      context: context,
+      builder: (BuildContext context) {
+        return WillPopScope(onWillPop: () => Future.value(false), child: alert);
+      },
+    );
+  }
+}

@@ -32,7 +32,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-/lib/integratedTest
+# /lib/integratedTest
 # /lib/widgetTest
 
 # Symbolication related

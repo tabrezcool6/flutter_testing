@@ -1,5 +1,6 @@
 import 'package:counter_widget_testing/common/custom_button.dart';
 import 'package:counter_widget_testing/common/services/widgetTest/posts_repository_widget.dart';
+import 'package:counter_widget_testing/integratedTest/home_integrated_testing.dart';
 import 'package:counter_widget_testing/unitTest/home_counter_page.dart';
 import 'package:counter_widget_testing/unitTest/home_posts_page.dart';
 import 'package:counter_widget_testing/widgetTest/home_counter_page.dart';
@@ -105,6 +106,23 @@ class Home extends StatelessWidget {
                           (context) => HomePostsWidgetPage(
                             getPosts: PostsRepositoryWidgetTest().getPosts(),
                           ),
+                    ),
+                  ),
+            ),
+
+            ///
+            /// INTEGRATION Test UI
+            HorizontalDivider(),
+
+            /// find widget test for HomeLoginIntegratedTest Page in
+            /// "projectRoot/integration_test/home_login_test.dart"
+            CustomButton(
+              title: 'Login Integrated Test',
+              onTap:
+                  () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomeLoginIntegratedTest(),
                     ),
                   ),
             ),
