@@ -22,14 +22,36 @@ Counter Unit Test Fail
 
 Posts Unit Test Pass
 :-------------------------:
-![alt text](<testScreenshots/widget/posts_pass_unit_test.PNG>)
+![alt text](<testScreenshots/unit/posts_pass_unit_test.PNG>)
 
 Posts Unit Test Fail
 :-------------------------:
-![alt text](<testScreenshots/widget/posts_fail_unit_test.PNG>)
+![alt text](<testScreenshots/unit/posts_fail_unit_test.PNG>)
 
 
-## Posts Integration Testing
+## Counter Widget Testing
+
+Counter Widget Test Pass
+:-------------------------:
+![alt text](<testScreenshots/widget/counter_pass_widget_test.PNG>)
+
+Counter Widget Test Fail
+:-------------------------:
+![alt text](<testScreenshots/widget/counter_fail_widget_test.PNG>)
+
+
+## Posts Widget Testing
+
+Posts Widget Test Pass
+:-------------------------:
+![alt text](<testScreenshots/widget/api_pass_widget_test1.PNG>)
+
+Posts Widget Test Fail
+:-------------------------:
+![alt text](<testScreenshots/widget/api_fail_widget_test1.PNG>)
+
+
+## Login Integration Testing
 
 Login Integration Test Pass
 :-------------------------:
